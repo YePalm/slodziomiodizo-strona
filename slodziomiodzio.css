@@ -1,0 +1,341 @@
+@font-face
+{
+    font-family: 'Myriad Pro';
+    src:url(obrazy/MYRIADPRO-REGULAR.OTF)
+
+}
+
+@font-face
+{
+    font-family: "Beriln Sans";
+    src:url(obrazy/BRLNSDB.TTF)
+}
+
+body
+{
+    margin: 0 !important;
+}
+
+#container
+{
+    width: 1020px;
+    height: 1020px;
+    background-color: #dfaa47;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+#container2
+{
+    width: 96%;
+    height: 980px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    width: 92%;
+    height: 180px;
+    background-color: #e08c3d;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px 20px 60px -20px;
+}
+
+#logo
+{
+    margin-left: 5%;
+    float:left;
+}
+
+#text
+{
+    padding-top: 4.5%;
+    font-family: 'Comic Sans MS', arial;
+    font-size: 30px;
+    color: #4e361a;
+    text-align: center;
+}
+
+#text2
+{
+    font-family: Myriad Pro;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#nav
+{
+    clear: both;
+    width: 92%;
+    height: 64px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #e2d02a;
+    box-shadow: 20px 20px 60px -20px;
+    text-decoration: none !important;
+
+}
+
+#nav :hover
+{
+    color: black;
+}
+
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 28px;
+    height: 60px;
+    line-height: 227%;
+    display: inline-block;
+}
+
+ol a
+{
+    color: #351e13;
+    text-decoration: none !important;
+    display: block;
+    font-family: 'Comic Sans MS', arial;
+    font-weight: bold;
+}
+
+ol > li
+{
+    float: left;
+    width: 225.2px;
+    text-decoration-color: none !important;
+}
+
+ol > li:hover
+{
+    background-color: #ccbb25;
+}
+
+ol > li > ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+}
+
+ol > li:hover > ul
+{
+    display: block;
+}
+
+ol > li > ul > li
+{
+    background-color: #e2b42a;
+    position: relative;
+    z-index: 100;
+}
+
+ol > li > ul > li:hover 
+{
+    background-color: #c29d2e;
+}
+
+ol > li > ul > li:hover > a
+{
+    color: black;
+}
+
+#slider
+{
+    width: 92%;
+    height: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    box-shadow: 20px 20px 60px -20px;
+}
+
+.carousel-indicators
+{
+    margin-bottom: -50px;
+}
+
+.carousel-control-prev-icon
+{
+    margin-left: -80px;
+}
+
+.carousel-control-next
+{
+    margin-right: -40px;
+}
+
+#content
+{
+    width: 92%;
+    height: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+#content-text
+{
+    height: 320px;
+    width: 60%;
+    background-color: #f7d034;
+    margin-right: 40px;
+    float: left;
+    box-shadow: 20px 20px 60px -20px;
+}
+
+#title
+{
+    font-size: 30px;
+    text-align: center;
+    font-family: Beriln Sans;
+    color: #572a13;
+    padding-top: 10px;
+}
+
+#describtion
+{
+    font-family: "Comic Sans MS";
+    text-align: center;
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#content-photo
+{
+    height: 320px;
+    width: 35.55%;
+    float: left;
+    box-shadow: 20px 20px 60px -30px;
+}
+
+#footer
+{
+    background-color: #e08c3d;
+    height: 80px;
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    box-shadow: 20px 20px 60px -20px;
+}
+
+#footer-text
+{
+    float: left;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    font-weight: 700;
+}
+
+#footer-text > h6
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#sociale img
+{
+    height: 40px;
+    width: 13%;
+    float: left;
+    margin-right: 12%;
+    margin-left: 8%;
+}
+
+#kontakt-concent
+{
+    height: 550px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kontakt
+{
+    width: 1520px;
+    height: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dfaa47;
+    margin-bottom: 200px
+}
+
+#kontakt-con
+{
+    width: 92%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #e08c3d;
+    box-shadow: 20px 20px 60px -20px;
+}
+
+#logo-k
+{
+    margin-left: 4%;
+    float: left;
+}
+
+#kontakt-text
+{
+    font-family: 'Comic Sans MS';
+    color: #351e13;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 58px;
+    margin-left: 40.5%;
+}
+
+.map
+{
+    width: 60%;
+    margin-right: auto;
+    float: left;
+}
+
+#contact-form
+{
+    width: 39%;
+    height: 550px;
+    float: left;
+}
+
+#contact-form-text
+{
+    font-family: 'Comic Sans MS';
+    color: #351e13;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    clear: both;
+}
+
+#kontakt-dane
+{
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#kontakt-dane-text > a
+{
+    margin-left: 60px;
+    font-size: 23px;
+}
